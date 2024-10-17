@@ -10,8 +10,11 @@ h1 {
    text-align: center;
    letter-spacing: 20px;
 }
-h4{
-    color:#B7A08B;
+h2{
+    color: #154D57;
+}
+h3{
+    color: #154D57;
 
 }
 img{
@@ -19,4 +22,8 @@ img{
 }
 hr {
 color: chocolate;
+}
+p {
+    color:#B7A08B;
+    
 }
