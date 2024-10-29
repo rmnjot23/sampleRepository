@@ -12,7 +12,7 @@ section{
 }
 .box{
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   background-color: #FFFEB6;
   height:200px;
   flex-direction: row ;
@@ -20,15 +20,19 @@ section{
 .featured{
   height:100px;
   width: 200px;
-  float: left ;
- 
- 
+  vertical-align: middle;
+
 }
 .effort{
   height:100px;
   width: 300px;
-  float: right;
-  
+  vertical-align: middle;
+  margin-left: 100px;
+
+}
+li{
+  font-size: 16px;
+  font-weight: bold;
 }
 .card_a{
   width:250px;
@@ -37,8 +41,8 @@ section{
   background-color: lightgray;
   margin: 10px;
   padding: 10px;
-  
-  
+
+
 }
 .card_b{
   width:250px;
@@ -47,8 +51,8 @@ section{
   background-color: lightgray;
   margin: 10px;
   padding: 10px;
-  
- 
+
+
 }
 
 .card_c{
@@ -58,9 +62,9 @@ section{
   background-color: lightgray;
   margin: 10px;
   padding: 10px;
-  
-  
-  
+
+
+
 }
 
 .card_d{
@@ -92,27 +96,39 @@ section{
 }
 
 p{
- margin-bottom: 5px; 
+  margin-bottom: 5px; 
 }
+
 .gallery-a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
-  
+  margin-left: 500px;
 }
 .gallery-b{
+  margin-left: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .end{
+ 
   background-color: forestgreen;
+  height:150px;
+  width:2000px;
   
+
 }
 
 
 h6{
-  color:forestgreen;
+  color:white;
+  margin: 0px;
+}
+
+img{
+  width: 200px;
+  align-content: center;
+ 
 }
