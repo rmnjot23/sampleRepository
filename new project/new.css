@@ -1,0 +1,118 @@
+body{}
+.head{
+  color: white;
+  text-align: center;
+  font-family:monospace
+}
+section{
+  background-color: forestgreen;
+  height: 125px;
+  margin-top: 0px;
+  font-size: 16px
+}
+.box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFEB6;
+  height:200px;
+  flex-direction: row ;
+}
+.featured{
+  height:100px;
+  width: 200px;
+  float: left ;
+ 
+ 
+}
+.effort{
+  height:100px;
+  width: 300px;
+  float: right;
+  
+}
+.card_a{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  
+  
+}
+.card_b{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  
+ 
+}
+
+.card_c{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  
+  
+  
+}
+
+.card_d{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.card_e{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+.card-f{
+  width:250px;
+  height: 300px;
+  border-style: solid;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+p{
+ margin-bottom: 5px; 
+}
+.gallery-a{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  
+}
+.gallery-b{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.end{
+  background-color: forestgreen;
+  
+}
+
+
+h6{
+  color:forestgreen;
+}
