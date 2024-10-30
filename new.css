@@ -1,15 +1,18 @@
 body{}
+/*Header Words Stylesheet*/
 .head{
   color: white;
   text-align: center;
   font-family:monospace
 }
+/* Header Background stylesheet*/
 section{
   background-color: forestgreen;
   height: 125px;
   margin-top: 0px;
   font-size: 16px
 }
+/* Code for species and efforts*/
 .box{
   display: flex;
   justify-content:center;
@@ -17,6 +20,7 @@ section{
   height:200px;
   flex-direction: row ;
 }
+
 .featured{
   height:100px;
   width: 200px;
@@ -30,10 +34,12 @@ section{
   margin-left: 100px;
 
 }
+/*List style sheet*/
 li{
   font-size: 16px;
   font-weight: bold;
 }
+/* first Row of Images in gallery*/
 .card_a{
   width:250px;
   height: 300px;
@@ -62,10 +68,8 @@ li{
   background-color: lightgray;
   margin: 10px;
   padding: 10px;
-
-
-
 }
+/*style for second row of images in gallery*/
 
 .card_d{
   width:250px;
@@ -98,20 +102,21 @@ li{
 p{
   margin-bottom: 5px; 
 }
-
+/* first row of images to make them go into rows*/
 .gallery-a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 500px;
 }
+/* 2nd row of images to make them go into rows*/
 .gallery-b{
   margin-left: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+/*stylesheeet for credits*/
 .end{
  
   background-color: forestgreen;
