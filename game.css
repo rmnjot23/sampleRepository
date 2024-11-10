@@ -1,89 +1,199 @@
 body {
   
-    background-image: url(bg.png);
-    background-repeat: no-repeat;
-    background-size: cover
-  }
-  .head{
-    display: flex;
-    text-align: left;
-    background-color: #fae3cb;
-    height: 200px;
-    width:inherit;
-    padding: 5px;
-    justify-content: space-between;
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+.head{
+  display: flex;
+  text-align: left;
+  background-color: #F3E3D3;
+  height: 200px;
+  width:inherit;
+  padding: 19px;
+  justify-content: space-around;
+  align-items: center;
+  color: forestgreen;
   
-    
-  }
   
-  .tom{
-    font-size: 20px;
-    text-decoration: underline blue;
-  }
-  .word{
-    font-size: 15px;
-  }
-  h1{
-    text-align: center;
-    font-size: 50px;
-    color:#6cac4c;
-    text-shadow:-2x 2px brown;
-   
-  }
-  img{
-    height: 200px;
-    float: right; 
-  }
-  #theone{
-    text-align: center;
-  }
-  .option{
-    width: 90%;
-    display: flex;
-    align-self:auto;
-    flex-direction: column;
-    align-content:  center;
-   justify-content: center;
-    margin: 10px auto;
-    
-   
-  }
-  .instruction{
-    height: 500px;
-    width: 100%;
-    background-color: forestgreen;
-    
-    border: #a7f083 2px solid;
-  }
-  .easy{
-    height: 500px;
-    width: 100%;
-    background-color: forestgreen;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
-    border: #a7f083 2px solid;
-  }
-  .medium{
-    height: 500px;
-    width: 100%;
-    background-color: forestgreen;
-    display: flex;
-    justify-content: center;
-    border: #a7f083 2px solid;
-    flex-direction: column;
-  }
-  .hard{
-    height: 500px;
-    width: 100%;
-    background-color: forestgreen;
-    border: #a7f083 2px solid;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  img{
-    align-self: center
-  }
+}
+
+.tom{
+  font-size: 20px;
+  text-decoration: underline forestgreen;
+}
+.word{
+  font-size: 15px;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color:#B5C59B;
+  text-shadow: 3px 2px #415132;
   
+ 
+}
+img{
+  height: 200px;
+  float: right; 
+}
+#theone{
+  text-align: center;
+}
+.option{
+  width: 90%;
+  display: flex;
+  align-self:auto;
+  flex-direction: column;
+  align-content:  center;
+ justify-content: center;
+  margin: 10px auto;
+  
+ 
+}
+
+.instruction{
+  border: 2px solid #c0e787;
+
+  background-color: #7C9E60;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease;
+}
+.instruction p{
+  font-size: 16px;
+}
+
+
+.ol{
+  display: inline-block;
+  text-align: center;
+}
+
+
+/*instructions if hover*/
+.instruction:hover{
+  height: 400px;
+}
+
+
+.easy{
+  border: 2px solid #192A51;
+  background-color: #7C9E60;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.9s ease;
+  border: #c0e787 2px solid;
+}
+
+
+
+
+/*easy if hover*/
+.easy:hover{
+  height:700px
+}
+.easy p{
+  font-size: 16px;
+}
+
+.box_a{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height:350px;
+  background-image: url(Easy_BEFORE.png);
+  background-size: contain;
+}
+.box_a:hover{
+  background-image: url(Easy_AFTER.png)
+}
+
+
+.medium{
+  border: 2px solid #c0e787;
+ 
+  background-color: #7C9E60;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease;
+}
+.medium:hover{
+  height:700px
+}
+
+
+.medium p{
+  font-size: 16px;
+}
+
+
+.box_b{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 350px;
+  background-image: url(mediumb4.png);
+  background-size: contain;
+}
+
+.box_b:hover{
+  background-image: url(medium.png);
+  
+}
+
+
+
+.hard{
+  border: 2px solid #c0e787;
+
+  background-color: #7C9E60;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 0.9em;
+  height: 50px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 0.5s ease;
+}
+.hard:hover{
+  height:700px
+}
+
+
+.hard p{
+  font-size: 16px;
+}
+
+
+.box_c{
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 350px;
+  background-image: url(hardb4.png);
+  background-size: contain;
+}
+
+.box_c:hover{
+  background-image: url(hard.png);
+
+}
+
+
