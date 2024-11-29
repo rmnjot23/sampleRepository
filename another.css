@@ -38,5 +38,41 @@ div{
     border: solid;
     background-color: beige;
     color: olive;
-    padding:1px;
+    padding:2px;
+}
+.two{
+    height:6px;
+    border-color: #154D57;
+    border-radius: 1px;
+    border: solid;
+    background-color: beige;
+    color: olive;
+    padding:2px;
+}
+.three{
+    height:6px;
+    border-color: #154D57;
+    border-radius: 1px;
+    border: solid;
+    background-color: beige;
+    color: olive;
+    padding:2px;
+}
+.four{
+    height:6px;
+    border-color: #154D57;
+    border-radius: 1px;
+    border: solid;
+    background-color: beige;
+    color: olive;
+    padding:2px;
+}
+.five{
+    height:6px;
+    border-color: #154D57;
+    border-radius: 1px;
+    border: solid;
+    background-color: beige;
+    color: olive;
+    padding:2px;
 }
