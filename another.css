@@ -27,3 +27,15 @@ p {
     color:#B7A08B;
     
 }
+div{
+    font-size: 19px;
+    
+}
+.one{
+    height:6px;
+    border-color: #154D57;
+    border-radius: 1px;
+    border: solid;
+    background-color: beige;
+    color: olive;
+}
