@@ -33,7 +33,7 @@ h6 {
   font-size: 18px;
 
 }
-#projects{
+.projects{
   display: flex;
   font-size: 19px;
   border-width: 1px;
@@ -64,14 +64,4 @@ a{
   background-color: olive;
   color: beige;
   border-color: beige;
-}
-.project{
-  display: flex;
-  font-size: 19px;
-  border-width: 1px;
-  border-color: black;
-  height: 200px;
-  width: inherit;
-  vertical-align: middle;
-
 }
